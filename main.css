@@ -1,0 +1,50 @@
+.item {
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.discraption {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  width: 80%;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+}
+.discraption h2 {
+  font-size: 1.125rem;
+}
+
+#lightboxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+#lightBox {
+  width: 50%;
+  height: 70vh;
+  background-image: url(../images/1.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#lightBox i {
+  font-size: 1.5625rem;
+  margin: 0 15px;
+  cursor: pointer;
+}
+#closeLightBox {
+  position: absolute;
+  top: 0.625rem;
+  right: 0;
+}
